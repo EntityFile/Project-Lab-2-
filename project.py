@@ -94,7 +94,7 @@ def main():
 	for el_ind in range(len(layers)):
 		layers[el_ind] = layers[el_ind].lower()
 	if 'films' in layers:
-		file = input('Type the location.list file adress: ')
+		file = input('Type the locations.list file adress: ')
 		input_year = input('Year: ')
 		permission1 = input('Should we show every place where the\
  film was filmed or just one?(type yes or no): ').lower()
